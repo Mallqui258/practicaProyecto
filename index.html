@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <script src="https://kit.fontawesome.com/28e0b35790.js" crossorigin="anonymous"></script>
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form sing-up-container">
+            <h1>Iniciar sesión</h1>
+            <form class="formulario">
+                <i class="fas fa-envelope icon"></i>
+                <input type="text" placeholder="Email" id="email">
+                <i class="fas fa-key icon"></i>
+                <input type="password" name="Contraseña" id="contraseña">
+                <a class="no-account">¿Aún no tienes un cuenta?</a>
+                <input type="submit" value="Aceptar">
+            </form>
+        </div>
+
+        <div class="form sign-in-container">
+            <h1>Registrarse</h1>
+            <form class="formulario2">
+                <i class="fas fa-user icon"></i>
+                <input type="text" placeholder="Nombre" name="nombre" id="name">
+
+                <i class="fas fa-mobile-alt icon"></i>
+                <input type="tel" placeholder="Celular" name="celular" id="celular">
+
+                <i class="fa-regular fa-calendar-days"></i>
+                <input type="date" name="Fecha" id="fecha">
+
+                <i class="fa-duotone fa-list-ul"></i>
+                <select name="Sexo" id="sexo">
+                    <option value="">Seleccione una opccion</option>
+                    <option value="Hombre">Hombre</option>
+                    <option value="Mujer">Mujer</option>
+                </select>
+
+                <i class="fas fa-envelope icon"></i>
+                <input type="email" placeholder="Email" name="email" id="email2">
+
+                <i class="fas fa-key icon"></i>
+                <input type="password" placeholder="Contraseña" name="password" id="password">
+                <a class="ok-account">¿Ya tienes una cuenta?</a>
+                <input type="submit" value="Registrarse">
+            </form>
+        </div>
+    </div>
+    <p class="notify check_notify">Registro exitoso</p>
+    <p class="notify error_notify"> Ha ocurrido un error, verificar tus datos</p>
+    <script src="scr.js"></script>
+</body>
+</html>
